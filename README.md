@@ -2,7 +2,7 @@
 <h3 align="center">Aku Proplayer roblox</h3>
 
 <div align="center">
-  <img src="https://i.pinimg.com/originals/55/18/16/551816013c03e57b423db438e62bd2ff.gif />
+  <img src="https://i.pinimg.com/originals/55/18/16/551816013c03e57b423db438e62bd2ff.gif" alt="vincent-gif" />
 </div>
 
 <h3 align="center">Languages and Tools:</h3>

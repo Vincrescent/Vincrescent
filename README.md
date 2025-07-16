@@ -1,5 +1,5 @@
-<h1 align="center">Halo Guys Aku Vincent</h1>
-<h3 align="center">Aku Proplayer roblox</h3>
+<h1 align="center">Halo, Saya Vincent</h1>
+<h3 align="center">Roblox Game Developer & Discord Bot Programmer</h3>
 
 <div align="center">
   <img src="https://i.pinimg.com/originals/55/18/16/551816013c03e57b423db438e62bd2ff.gif" alt="vincent-gif" />

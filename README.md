@@ -48,30 +48,6 @@ return Vincrescent
 
 <br>
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vincrescent&show_icons=true&theme=default&hide_border=true&bg_color=FFFFFF&title_color=2C2D72&icon_color=2C2D72&text_color=333333" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vincrescent&layout=compact&theme=default&hide_border=true&bg_color=FFFFFF&title_color=2C2D72&text_color=333333" alt="Top Languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vincrescent&theme=default&hide_border=true&background=FFFFFF&stroke=2C2D72&ring=2C2D72&fire=2C2D72&currStreakLabel=2C2D72" alt="GitHub Streak" />
-</p>
-
-<br>
-
-## 📌 Featured Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| 🔹 [**FurinaLast**](https://github.com/Vincrescent/FurinaLast) | Discord bot | `Python` |
-| 🔹 [**valentine-site**](https://github.com/Vincrescent/valentine-site) | Valentine-themed web page | `HTML` |
-| 🔹 [**warung-xiee**](https://github.com/Vincrescent/warung-xiee) | Storefront site — jual Sailor Piece | `HTML` |
-| 🔹 [**ns-gamevese**](https://github.com/Vincrescent/ns-gamevese) | Game-related web project | `JavaScript` |
-
-<br>
-
 ## 🔗 Find Me
 
 <p align="center">

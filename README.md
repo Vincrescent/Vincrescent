@@ -63,21 +63,12 @@ return Vincrescent
 
 ## 📌 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/Vincrescent/FurinaLast">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vincrescent&repo=FurinaLast&theme=default&hide_border=true&bg_color=FFFFFF&title_color=2C2D72&text_color=333333&icon_color=2C2D72" alt="FurinaLast" />
-  </a>
-  <a href="https://github.com/Vincrescent/valentine-site">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vincrescent&repo=valentine-site&theme=default&hide_border=true&bg_color=FFFFFF&title_color=2C2D72&text_color=333333&icon_color=2C2D72" alt="valentine-site" />
-  </a>
-  <br/>
-  <a href="https://github.com/Vincrescent/warung-xiee">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vincrescent&repo=warung-xiee&theme=default&hide_border=true&bg_color=FFFFFF&title_color=2C2D72&text_color=333333&icon_color=2C2D72" alt="warung-xiee" />
-  </a>
-  <a href="https://github.com/Vincrescent/ns-gamevese">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vincrescent&repo=ns-gamevese&theme=default&hide_border=true&bg_color=FFFFFF&title_color=2C2D72&text_color=333333&icon_color=2C2D72" alt="ns-gamevese" />
-  </a>
-</p>
+| Project | Description | Stack |
+|---|---|---|
+| 🔹 [**FurinaLast**](https://github.com/Vincrescent/FurinaLast) | Discord bot | `Python` |
+| 🔹 [**valentine-site**](https://github.com/Vincrescent/valentine-site) | Valentine-themed web page | `HTML` |
+| 🔹 [**warung-xiee**](https://github.com/Vincrescent/warung-xiee) | Storefront site — jual Sailor Piece | `HTML` |
+| 🔹 [**ns-gamevese**](https://github.com/Vincrescent/ns-gamevese) | Game-related web project | `JavaScript` |
 
 <br>
 

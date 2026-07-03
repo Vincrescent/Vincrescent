@@ -15,7 +15,7 @@
 
 <br/>
 
-### ⚔️ About Me
+### About Me
 
 - Roblox developer specializing in **Luau** — building systems, not just scripts
 - Creator of **Anime Sovereigns**, an anime-inspired tower defense game with a full summoning system, character traits, and layered progression
@@ -25,7 +25,7 @@
 
 ---
 
-### 🎮 Featured Project — Anime Sovereigns
+### Featured Project — Anime Sovereigns
 
 An anime-inspired tower defense game built on Roblox. Players summon units with unique traits, build synergies across an evolving roster, and progress through anime-inspired stages — designed and built end-to-end in Luau.
 

@@ -1,4 +1,4 @@
-<a href="https://vincrescent.github.io"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/header.png" alt="vincrescent - full-stack &amp; backend developer (https://vincrescent.github.io)" width="100%" align="top"></a>
+<a href="https://github.com/Vincrescent"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/header.png" alt="vincrescent - full-stack &amp; backend developer (https://vincrescent.github.io)" width="100%" align="top"></a>
 <a href="https://github.com/Vincrescent?tab=repositories"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/skills.png" alt="Skills: TypeScript, JavaScript, NestJS, React, Python, PHP, MongoDB, Git" width="100%" align="top"></a>
 <img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/touch_header.png" width="100%" align="top">
 <nobr>
@@ -6,4 +6,4 @@
 </nobr>
 <img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/tech_info.png" width="100%" alt="Tech info: main focus - typescript &amp; nestjs; primary os - windows 11; gpu - rtx 4070 super; ram - 32 gb" align="top">
 <a href="https://github.com/Vincrescent/nestjs-product-api-mongodb"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/working1.png" alt="Currently working on: nestjs-product-api-mongodb" width="50%" align="top"></a><a href="https://github.com/Vincrescent/FurinaLast"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/working2.png" alt="Currently working on: FurinaLast &amp; Full-Stack Apps" width="50%" align="top"></a>
-<a href="https://vincrescent.github.io"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/cat_photo_ascii.png" width="100%" align="top"></a>
+<a href="https://github.com/Vincrescent"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/cat_photo_ascii.png" width="100%" align="top"></a>

@@ -1,5 +1,6 @@
 <a href="https://vincrescent.github.io"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/header.png" alt="vincrescent - full-stack &amp; backend developer (https://vincrescent.github.io)" width="100%" align="top"></a>
 <a href="https://github.com/Vincrescent?tab=repositories"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/skills.png" alt="Skills: TypeScript, JavaScript, NestJS, React, Python, PHP, MongoDB, Git" width="100%" align="top"></a>
+<img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/touch_header.png" width="100%" align="top">
 <nobr>
 <a href="https://github.com/Vincrescent"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/github.png" alt="GitHub" width="33.333333333333336%" align="top"></a><a href="https://discord.com/users/379604922716389408"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/discord.png" alt="Discord" width="33.333333333333336%" align="top"></a><a href="https://github.com/Vincrescent?tab=repositories"><img src="https://raw.githubusercontent.com/Vincrescent/Vincrescent/main/assets/projects.png" alt="Projects" width="33.333333333333336%" align="top"></a>
 </nobr>

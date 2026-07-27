@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="100%">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#27272a" opacity="0.8"/>
+      <circle cx="12" cy="12" r="1.5" fill="#3f3f46" opacity="0.6"/>
+    </pattern>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c22" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#101014" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="btnBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#09090b"/>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+
+  <!-- Section Title Badge -->
+  <rect x="50" y="16" width="90" height="28" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1"/>
+  <text x="95" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#ffffff" letter-spacing="2">SKILLS</text>
+
+  <!-- Buttons Grid (2 rows x 4 cols) -->
+  
+  <!-- Row 1 -->
+  <!-- Col 1: LUAU -->
+  <g transform="translate(50, 60)">
+    <rect width="162" height="74" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- Lua Icon -->
+    <circle cx="44" cy="37" r="12" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+    <circle cx="51" cy="30" r="4" fill="#ffffff"/>
+    <text x="72" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#ffffff" letter-spacing="1">LUAU</text>
+  </g>
+
+  <!-- Col 2: ROBLOX STUDIO -->
+  <g transform="translate(226, 60)">
+    <rect width="162" height="74" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- Roblox Icon -->
+    <rect x="30" y="25" width="22" height="22" rx="4" fill="none" stroke="#ffffff" stroke-width="2.5" transform="rotate(-15 41 36)"/>
+    <text x="64" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#ffffff" letter-spacing="1">ROBLOX</text>
+  </g>
+
+  <!-- Col 3: BLENDER -->
+  <g transform="translate(402, 60)">
+    <rect width="162" height="74" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- Blender Icon -->
+    <path d="M 32 44 C 32 36, 44 32, 44 40 C 44 46, 34 48, 32 44 Z M 44 36 L 52 24 M 40 34 L 32 22" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="64" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#ffffff" letter-spacing="1">BLENDER</text>
+  </g>
+
+  <!-- Col 4: JAVASCRIPT -->
+  <g transform="translate(578, 60)">
+    <rect width="162" height="74" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- JS Icon -->
+    <rect x="30" y="24" width="24" height="24" rx="4" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <text x="36" y="43" font-family="sans-serif" font-weight="900" font-size="11" fill="#ffffff">JS</text>
+    <text x="66" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#ffffff" letter-spacing="1">JAVASCRIPT</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- Col 1: REACT -->
+  <g transform="translate(50, 150)">
+    <rect width="162" height="74" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- React Atom Icon -->
+    <ellipse cx="40" cy="37" rx="12" ry="4.5" fill="none" stroke="#ffffff" stroke-width="1.8" transform="rotate(30 40 37)"/>
+    <ellipse cx="40" cy="37" rx="12" ry="4.5" fill="none" stroke="#ffffff" stroke-width="1.8" transform="rotate(90 40 37)"/>
+    <ellipse cx="40" cy="37" rx="12" ry="4.5" fill="none" stroke="#ffffff" stroke-width="1.8" transform="rotate(150 40 37)"/>
+    <circle cx="40" cy="37" r="2.5" fill="#ffffff"/>
+    <text x="66" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#ffffff" letter-spacing="1">REACT</text>
+  </g>
+
+  <!-- Col 2: TAILWIND -->
+  <g transform="translate(226, 150)">
+    <rect width="162" height="74" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- Tailwind Wave Icon -->
+    <path d="M 30 38 Q 34 30, 40 34 Q 44 38, 48 34 M 26 44 Q 30 36, 36 40 Q 40 44, 44 40" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <text x="60" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#ffffff" letter-spacing="1">TAILWIND</text>
+  </g>
+
+  <!-- Col 3: WINDOWS -->
+  <g transform="translate(402, 150)">
+    <rect width="162" height="74" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- Windows Icon -->
+    <path d="M 30 26 L 41 24 L 41 35 L 30 35 Z M 43 24 L 54 22 L 54 35 L 43 35 Z M 30 37 L 41 37 L 41 48 L 30 46 Z M 43 37 L 54 37 L 54 49 L 43 47 Z" fill="#ffffff"/>
+    <text x="66" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#ffffff" letter-spacing="1">WINDOWS</text>
+  </g>
+
+  <!-- Col 4: GIT -->
+  <g transform="translate(578, 150)">
+    <rect width="162" height="74" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- Git Icon -->
+    <path d="M 44 26 L 36 34 M 36 34 L 36 46 M 36 34 L 44 42" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="44" cy="26" r="3" fill="#ffffff"/>
+    <circle cx="36" cy="46" r="3" fill="#ffffff"/>
+    <circle cx="44" cy="42" r="3" fill="#ffffff"/>
+    <text x="66" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#ffffff" letter-spacing="1">GIT</text>
+  </g>
+
+</svg>

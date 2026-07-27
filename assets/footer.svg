@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#27272a" opacity="0.8"/>
+      <circle cx="12" cy="12" r="1.5" fill="#3f3f46" opacity="0.6"/>
+    </pattern>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0e0e11" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="50%" stop-color="#27272a"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#09090b"/>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+
+  <!-- Footer Box -->
+  <rect x="50" y="20" width="700" height="175" rx="20" fill="url(#glass)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+
+  <!-- Text Content (Left Side) -->
+  <g transform="translate(90, 56)">
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" fill="#e4e4e7" letter-spacing="-0.3">Loading this README</text>
+    <text y="24" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" fill="#e4e4e7" letter-spacing="-0.3">probably took you</text>
+    <text y="48" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" fill="#ffffff" letter-spacing="-0.3">about <tspan fill="#a1a1aa" font-weight="800">0.8 MB</tspan> of data.</text>
+
+    <text y="82" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="12" fill="#71717a">(The GitHub page itself likely</text>
+    <text y="98" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="12" fill="#71717a">took <tspan font-weight="700" fill="#a1a1aa">3-4 times</tspan> more to load)</text>
+  </g>
+
+  <!-- ASCII Cat Graphic (Right Side) -->
+  <g transform="translate(560, 48)">
+    <text font-family="'Consolas', 'Courier New', monospace" font-size="12" fill="#a1a1aa" xml:space="preserve">
+      <tspan x="0" dy="0">    /\_____/\    </tspan>
+      <tspan x="0" dy="16">   /  o   o  \   </tspan>
+      <tspan x="0" dy="16">  (  ==  ^  == ) </tspan>
+      <tspan x="0" dy="16">   )         (   </tspan>
+      <tspan x="0" dy="16">  (  /     \  )  </tspan>
+      <tspan x="0" dy="16">  ( (  | |  ) )  </tspan>
+      <tspan x="0" dy="16">  (_(__|_|__)_)  </tspan>
+    </text>
+  </g>
+
+  <!-- Bottom URL -->
+  <text x="400" y="222" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-weight="500" font-size="11" fill="#52525b" letter-spacing="2">HTTPS://GITHUB.COM/VINCRESCENT</text>
+</svg>

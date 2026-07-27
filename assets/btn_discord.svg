@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 75" width="100%">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#27272a" opacity="0.8"/>
+      <circle cx="12" cy="12" r="1.5" fill="#3f3f46" opacity="0.6"/>
+    </pattern>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c22" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#101014" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="btnBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#09090b"/>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+
+  <g transform="translate(10, 5)">
+    <rect width="180" height="65" rx="14" fill="url(#btnGrad)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+    <!-- Discord Logo -->
+    <path d="M 40 27 C 37.5 25.8 34.8 25 32 24.5 C 31.7 25 31.3 25.8 31 26.5 C 28 26.1 25 26.1 22 26.5 C 21.7 25.8 21.3 25 21 24.5 C 18.2 25 15.5 25.8 13 27 C 8 34.5 6.7 41.8 7.3 49 C 10.6 51.4 13.8 52.9 17 53.9 C 17.8 52.8 18.5 51.7 19.1 50.5 C 18 50.1 16.9 49.6 15.9 48.9 C 16.1 48.7 16.4 48.5 16.6 48.3 C 23.2 51.4 30.4 51.4 36.9 48.3 C 37.1 48.5 37.4 48.7 37.6 48.9 C 36.6 49.6 35.5 50.1 34.4 50.5 C 35 51.7 35.7 52.8 36.5 53.9 C 39.7 52.9 42.9 51.4 46.2 49 C 47 40.5 44.7 33.3 40 27 Z M 20.3 43.5 C 18.3 43.5 16.7 41.7 16.7 39.5 C 16.7 37.3 18.3 35.5 20.3 35.5 C 22.3 35.5 23.9 37.3 23.9 39.5 C 23.9 41.7 22.3 43.5 20.3 43.5 Z M 33.2 43.5 C 31.2 43.5 29.6 41.7 29.6 39.5 C 29.6 37.3 31.2 35.5 33.2 35.5 C 35.2 35.5 36.8 37.3 36.8 39.5 C 36.8 41.7 35.2 43.5 33.2 43.5 Z" fill="#ffffff"/>
+    <text x="58" y="42" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#ffffff" letter-spacing="1">DISCORD</text>
+  </g>
+</svg>

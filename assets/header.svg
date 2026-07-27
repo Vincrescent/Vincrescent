@@ -1,42 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%">
   <defs>
-    <!-- Dot Matrix Pattern -->
-    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#27272a" opacity="0.8"/>
-      <circle cx="12" cy="12" r="1.5" fill="#3f3f46" opacity="0.6"/>
+    <!-- Cyan Grid Dots -->
+    <pattern id="cyanDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.2" fill="#0284c7" opacity="0.5"/>
+      <circle cx="15" cy="15" r="1.8" fill="#38bdf8" opacity="0.3"/>
     </pattern>
-    <!-- Glass Gradient -->
-    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#18181b" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#0e0e11" stop-opacity="0.95"/>
+
+    <!-- Ice Glass Gradient -->
+    <linearGradient id="iceGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#09101f" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0.98"/>
     </linearGradient>
-    <!-- Subtle Border Gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3f3f46"/>
-      <stop offset="50%" stop-color="#27272a"/>
-      <stop offset="100%" stop-color="#18181b"/>
+
+    <!-- Cyan Glowing Border -->
+    <linearGradient id="cyanBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
     </linearGradient>
+
+    <!-- Subtle Blue Aura Accent -->
+    <radialGradient id="blueAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="100%" height="100%" fill="#09090b"/>
-  <rect width="100%" height="100%" fill="url(#dots)"/>
+  <rect width="100%" height="100%" fill="#030712"/>
+  <rect width="100%" height="100%" fill="url(#cyanDots)"/>
+
+  <!-- Glowing Blue Aura Background Accent -->
+  <circle cx="400" cy="160" r="220" fill="url(#blueAura)"/>
 
   <!-- Main Glass Box -->
-  <rect x="50" y="40" width="700" height="240" rx="24" fill="url(#glass)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <rect x="40" y="35" width="720" height="250" rx="28" fill="url(#iceGlass)" stroke="url(#cyanBorder)" stroke-width="2"/>
 
-  <!-- Glow Effect Behind Text -->
-  <circle cx="400" cy="140" r="120" fill="#ffffff" opacity="0.03" filter="blur(20px)"/>
+  <!-- Inner Cyan Accent Line Top -->
+  <path d="M 100 35 L 700 35" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
 
   <!-- Content -->
   <g text-anchor="middle">
     <!-- Title -->
-    <text x="400" y="148" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="76" fill="#ffffff" letter-spacing="-3">vincrescent</text>
-    
+    <text x="400" y="152" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="80" fill="#ffffff" letter-spacing="-3">vincrescent</text>
+
     <!-- Tagline -->
-    <text x="400" y="192" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" fill="#a1a1aa" letter-spacing="5">ROBLOX DEVELOPER &nbsp;•&nbsp; LUAU MASTER</text>
-    
+    <text x="400" y="198" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="14" fill="#38bdf8" letter-spacing="6">ROBLOX DEVELOPER &nbsp;•&nbsp; LUAU MASTER</text>
+
     <!-- Link -->
-    <text x="400" y="232" font-family="'Consolas', 'Courier New', monospace" font-weight="500" font-size="11" fill="#52525b" letter-spacing="2">HTTPS://GITHUB.COM/VINCRESCENT</text>
+    <text x="400" y="240" font-family="'Consolas', 'Courier New', monospace" font-weight="600" font-size="12" fill="#60a5fa" letter-spacing="3">HTTPS://GITHUB.COM/VINCRESCENT</text>
   </g>
+
+  <!-- Decorative Corner Accents -->
+  <circle cx="65" cy="60" r="4" fill="#38bdf8"/>
+  <circle cx="735" cy="60" r="4" fill="#38bdf8"/>
+  <circle cx="65" cy="260" r="4" fill="#0284c7"/>
+  <circle cx="735" cy="260" r="4" fill="#0284c7"/>
 </svg>

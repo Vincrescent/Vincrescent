@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 150" width="100%">
   <defs>
-    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#27272a" opacity="0.8"/>
-      <circle cx="12" cy="12" r="1.5" fill="#3f3f46" opacity="0.6"/>
+    <pattern id="cyanDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.2" fill="#0284c7" opacity="0.5"/>
+      <circle cx="15" cy="15" r="1.8" fill="#38bdf8" opacity="0.3"/>
     </pattern>
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1c1c22" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#101014" stop-opacity="0.95"/>
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#070d19" stop-opacity="0.98"/>
     </linearGradient>
     <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3f3f46"/>
-      <stop offset="100%" stop-color="#27272a"/>
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
     </linearGradient>
   </defs>
 
-  <rect width="100%" height="100%" fill="#09090b"/>
-  <rect width="100%" height="100%" fill="url(#dots)"/>
+  <rect width="100%" height="100%" fill="#030712"/>
+  <rect width="100%" height="100%" fill="url(#cyanDots)"/>
 
   <g transform="translate(10, 10)">
-    <rect width="360" height="130" rx="16" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1.2"/>
+    <rect width="360" height="130" rx="16" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1.4"/>
     
     <!-- Title -->
     <text x="24" y="44" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" fill="#ffffff" letter-spacing="-0.5">LuauCore-Systems</text>
 
     <!-- Description -->
-    <text x="24" y="74" font-family="system-ui, sans-serif" font-weight="400" font-size="12" fill="#a1a1aa">High-performance modular architecture,</text>
-    <text x="24" y="92" font-family="system-ui, sans-serif" font-weight="400" font-size="12" fill="#a1a1aa">client-server networking, and custom data</text>
-    <text x="24" y="110" font-family="system-ui, sans-serif" font-weight="400" font-size="12" fill="#a1a1aa">stores built for Roblox.</text>
+    <text x="24" y="74" font-family="system-ui, sans-serif" font-weight="500" font-size="12" fill="#93c5fd">High-performance modular architecture,</text>
+    <text x="24" y="92" font-family="system-ui, sans-serif" font-weight="500" font-size="12" fill="#93c5fd">client-server networking, and custom data</text>
+    <text x="24" y="110" font-family="system-ui, sans-serif" font-weight="500" font-size="12" fill="#93c5fd">stores built for Roblox.</text>
   </g>
 </svg>
